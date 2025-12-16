@@ -1,0 +1,134 @@
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:3
+All Product:
+No. | Product Name | Price (PHP)
+1. Laptop | 50000.0
+2. Mouse | 500.0
+3. Printer | 3000.0
+4. Monitor | 5000.0
+5. Speaker | 550.0
+
+Total Product: 5
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:1
+
+Enter product:
+Iphone
+Enter price: 
+70000
+Successfully Added: Iphone
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:2
+Processed: Laptop 50000.0
+Updated Total Bill: ₱50000.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:2
+Processed: Mouse 500.0
+Updated Total Bill: ₱50500.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:2
+Processed: Printer 3000.0
+Updated Total Bill: ₱53500.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:2
+Processed: Monitor 5000.0
+Updated Total Bill: ₱58500.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:2
+Processed: Speaker 550.0
+Updated Total Bill: ₱59050.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:2
+Processed: Iphone 70000.0
+Updated Total Bill: ₱129050.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:3
+All Product:
+No. | Product Name | Price (PHP)
+
+Total Product: 0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:4
+Total bill: 129050.0
+====================================
+| Cashier Checkout Menu            |
+| 1 - Add a product                |
+| 2 - Process next product         |
+| 3 - Check number of products     |
+| 4 - View total bill so far       |
+| 5 - Exit                         |
+====================================
+Enter Choice:5
+Closing Cashier Line.... 
+Final Total Bill: 129050.0
+Exiting
