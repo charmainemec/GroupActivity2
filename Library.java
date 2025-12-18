@@ -1,21 +1,57 @@
-package ph.com.bpi.M2Project2;
+package ph.com.bpi.m2project2;
 
-public class Library {
+public class Library extends Book{
+	private Book[] books;
+	public Library()
+	{
+		
+	}
+	public Library(Integer id, String title, String author)
+	{
+		this.setId(id);
+		this.setTitle(title);
+		this.setAuthor(author);
+		this.isBorrowed();
+	}
+
 	// Array that holds all books in the library
-    private Book[] books = new Book[5];
+    //private Book[] books = new Book[5];
     // Array that holds all active loan
     private Loan[] loans = new Loan[5];
 
-    /*
-     Add Book object to a specific index in book array.
-     * */
-    public void addBook(Book book, int index) {
-        books[index] = book;
+    public Book[] addBook() 
+    {
+        Book[] bookData = {
+            new Library(1, "Java Basics", "Author A"),
+            new Library(2, "Advanced Java", "Author B"),
+            new Library(3, "OOP Concepts", "Author C"),
+            new Library(4, "Data Structures", "Author D"),
+            new Library(5, "Algorithms", "Author E")
+        };
+
+        // Save
+        this.books = bookData;
+        // Return
+        return bookData;
     }
+
+    public Book[] getBooks() {
+        return books != null ? books : new Book[0];
+    }
+
+   
     // Returns array of all books in the library
-    public Book[] getBooks() { return books; }
+    /*public Book[] getBooks() 
+    { 
+    	return books; 
+    }*/
+
+
     // Returns array of all active loans
-    public Loan[] getLoans() { return loans; }
+    public Loan[] getLoans() 
+    { 
+    	return loans; 
+    }
     
     // Add new loan to first avaiable loans array
     public void addLoan(Loan loan) {
@@ -30,5 +66,7 @@ public class Library {
     public void removeLoan(int index) {
         loans[index] = null;
     }
+
+
 }
 

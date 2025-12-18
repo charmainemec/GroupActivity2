@@ -1,5 +1,4 @@
-package ph.com.bpi.M2Project2;
-
+package ph.com.bpi.m2project2;
 import java.util.Scanner;
 
 public class LibraryApplication {
@@ -19,13 +18,14 @@ public class LibraryApplication {
 
         // Create the library instance
         this.library = new Library();
-
+        library.addBook();
+        
         // Initialize books in the library
-        library.addBook(new Book(1, "Java Basics", "Author A"), 0);
-        library.addBook(new Book(2, "Advanced Java", "Author B"), 1);
-        library.addBook(new Book(3, "OOP Concepts", "Author C"), 2);
-        library.addBook(new Book(4, "Data Structures", "Author D"), 3);
-        library.addBook(new Book(5, "Algorithms", "Author E"), 4);
+        //library.addBook(1, "Java Basics", "Author A");
+        //library.addBook(new Book(2, "Advanced Java", "Author B"), 1);
+        //library.addBook(new Book(3, "OOP Concepts", "Author C"), 2);
+        //library.addBook(new Book(4, "Data Structures", "Author D"), 3);
+        //library.addBook(new Book(5, "Algorithms", "Author E"), 4);
 
         boolean running = true;
 
@@ -57,7 +57,6 @@ public class LibraryApplication {
     private void displayAllBooks() {
         System.out.println("\n--- ALL BOOKS ---");
         Book[] books = library.getBooks();
-
         for (int i = 0; i < books.length; i++) {
             Book b = books[i];
             System.out.println(b.getId() + " - " + b.getTitle() + " by " + b.getAuthor());

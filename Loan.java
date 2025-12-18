@@ -1,4 +1,4 @@
-package ph.com.bpi.M2Project2;
+package ph.com.bpi.m2project2;
 
 public class Loan {
 	//Name of user who borrowed book
